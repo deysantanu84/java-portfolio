@@ -188,5 +188,34 @@ public class Main {
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2018));
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(-1, 2020));
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(1, -2020));
+
+        // LargestPrime
+        System.out.println("*************************************************");
+        System.out.println(LargestPrime.getLargestPrime(21));  // 7
+        System.out.println(LargestPrime.getLargestPrime(217));  // 31
+        System.out.println(LargestPrime.getLargestPrime(0));  // -1
+        System.out.println(LargestPrime.getLargestPrime(45));  // 5
+        System.out.println(LargestPrime.getLargestPrime(-1));  // -1
+
+        // DiagonalStar
+        System.out.println("*************************************************");
+        DiagonalStar.printSquareStar(5);
+        DiagonalStar.printSquareStar(8);
+
+        // InputCalculator
+        System.out.println("*************************************************");
+        // InputCalculator.inputThenPrintSumAndAverage();
+
+        // PaintJob
+        System.out.println("*************************************************");
+        System.out.println(PaintJob.getBucketCount(3.4, 1.5));  // 3
+        System.out.println(PaintJob.getBucketCount(6.26, 2.2));  // 3
+        System.out.println(PaintJob.getBucketCount(3.26, 0.75));  // 5
+        System.out.println(PaintJob.getBucketCount(-3.4, 2.1, 1.5));  // -1
+        System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5));  // 5
+        System.out.println(PaintJob.getBucketCount(7.25, 4.3, 2.35));  // 14
+        System.out.println(PaintJob.getBucketCount(-3.4, 2.1, 1.5, 2));  // -1
+        System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5, 2));  // 3
+        System.out.println(PaintJob.getBucketCount(2.75, 3.25, 2.5, 1));  // 3
     }
 }
