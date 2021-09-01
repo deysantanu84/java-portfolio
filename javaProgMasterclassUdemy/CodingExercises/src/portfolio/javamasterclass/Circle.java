@@ -1,7 +1,7 @@
 package portfolio.javamasterclass;
 
 public class Circle {
-    private final double radius;
+    private double radius;
 
     public Circle(double radius) {
         this.radius = (radius >= 0) ? radius : 0;
