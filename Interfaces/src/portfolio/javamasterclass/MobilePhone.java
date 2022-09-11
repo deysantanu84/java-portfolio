@@ -41,7 +41,7 @@ public class MobilePhone implements ITelephone {
             isRinging = false;
             System.out.println("Mobile phone not on or number different");
         }
-        return false;
+        return isRinging;
     }
 
     @Override

@@ -38,7 +38,7 @@ public class Album {
         return false;
     }
 
-    public static class SongList {
+    private static class SongList {
         private ArrayList<Song> songs;
 
         private SongList() {

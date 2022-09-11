@@ -34,7 +34,7 @@ public class DeskPhone implements ITelephone {
         } else {
             isRinging = false;
         }
-        return false;
+        return isRinging;
     }
 
     @Override
